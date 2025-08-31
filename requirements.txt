@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+openai>=1.0.0
+anthropic>=0.8.0
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.29.0
+bitsandbytes>=0.43.0   # optional, for 4-bit quantization of large models
