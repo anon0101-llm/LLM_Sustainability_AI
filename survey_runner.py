@@ -152,15 +152,13 @@ def get_system_prompt(likert_scale: list, main_question: str = None) -> str:
     if main_question:
         task_instruction = (
             f"{main_question}\n"
-            f"You must respond with only one of the following options. "
-            f"Do not add any other text or explanation.\n\n"
+            f"You must respond with only one of the following options. \n"
             f"{constraints}\n"
             f"Options:\n{likert_scale_str}"
         )
     else:
         task_instruction = (
-            f"For the following statement, you must respond with only one of the following options. "
-            f"Do not add any other text or explanation.\n\n"
+            f"For each statement, indicate how well it describes you or your opinions. Select one of the following options. \n"
             f"{constraints}\n"
             f"Options:\n{likert_scale_str}"
         )
