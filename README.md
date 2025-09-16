@@ -114,7 +114,7 @@ If you use this repository, please cite it as:
 ```
 @misc{llm_sustainability_2025,
   title   = {Choosing a Model, Shaping a Future: Comparing LLM Perspectives on Sustainability and its Relationship with AI},
-  author  = {Bush, Annika and Aksoy, Meltem and Pauly, Michael and Ontrup, Gerrit},
+  author  = {Bush, Annika and Aksoy, Meltem and Pauly, Markus and Ontrup, Greta},
   journal = {arXiv preprint arXiv:2505.14435},
   year    = {2025},
   url     = {https://arxiv.org/abs/2505.14435}
